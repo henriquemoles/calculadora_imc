@@ -36,21 +36,34 @@ class ResultadoPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text(
-                    'NORMAL',
-                    style: resultTextStyle,
-                  ),
+                  controller.message == 'Peso Normal'
+                      ? Text(
+                          controller.message,
+                          style: resultTextStyle,
+                        )
+                      : Text(
+                          controller.message,
+                          style: badresultTextStyle,
+                        ),
                   Text(
                     '${controller.imc.toPrecision(2)}',
                     style: numberTextStyle,
                   ),
-                  Text(
-                    'Você tem um peso normal. Bom trabalho!',
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontSize: 22,
-                    ),
-                  )
+                  controller.message == 'Peso Normal'
+                      ? const Text(
+                          'Tudo Normal',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 22,
+                          ),
+                        )
+                      : const Text(
+                          'Procure um especialista',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 22,
+                          ),
+                        )
                 ],
               ),
               colour: activeCardColour,

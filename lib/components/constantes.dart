@@ -25,6 +25,11 @@ const resultTextStyle = TextStyle(
   fontSize: 22,
   fontWeight: FontWeight.bold,
 );
+const badresultTextStyle = TextStyle(
+  color: Color(0xFFEB1555),
+  fontSize: 22,
+  fontWeight: FontWeight.bold,
+);
 
 const imcTextStyle = TextStyle(
   fontSize: 100,
