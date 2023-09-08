@@ -1,5 +1,7 @@
 # BMI Calculator App
 
+[![Henrique Moles](https://img.shields.io/badge/-SeuNome-007acc?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/henriquemoles)](https://github.com/seu-usuario)
+
 This Flutter application calculates Body Mass Index (BMI) and was created as a response to the challenge in the Flutter Development course on the DIO platform.
 
 ## Table of Contents
