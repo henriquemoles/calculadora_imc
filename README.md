@@ -10,7 +10,6 @@ This Flutter application calculates Body Mass Index (BMI) and was created as a r
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
